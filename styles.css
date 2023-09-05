@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+/* Reset some default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the container */
+.container {
+    width: 300px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add some padding to the container */
+    border: 2px solid #333; /* Add a border */
+    border-radius: 10px; /* Rounded corners */
+    text-align: center; /* Center the content horizontally */
+}
+
+/* Style the colored blocks */
+.red, .green, .yellow {
+    display: inline-block; /* Display blocks inline */
+    width: 100px; /* Set the width and height to create circles */
+    height: 100px;
+    border-radius: 50%; /* Make them circles */
+}
+
+/* Define the background colors */
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
